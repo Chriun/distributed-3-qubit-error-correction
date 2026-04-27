@@ -1,0 +1,22 @@
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+  font-family: "IBM Plex Sans", "Lato", "Helvetica Neue", sans-serif;
+}
+
+.custom-img {
+  margin-bottom: 40px;
+}
+
+.toctree-wrapper ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wy-nav-content {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 1100px) {
+  .wy-nav-content {
+    max-width: 80%;
+  }
+}
